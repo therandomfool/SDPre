@@ -9,6 +9,5 @@ public class Objective3Lab2 {
     name = input.next();
 
     System.out.println( "Hello " + name);
-
   }
 }
