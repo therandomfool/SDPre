@@ -18,5 +18,6 @@ public class ForgetfulMachine {
 
     // The 2nd question blows up when I type a String
     // The 3rd question blows up with a string as well
+    
   }
 }
