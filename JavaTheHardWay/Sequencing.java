@@ -18,5 +18,6 @@ public class Sequencing {
     keyboard.close();
 
     // moved salesTax and total to after user input to allow the variable to work
+    
   }
 }
