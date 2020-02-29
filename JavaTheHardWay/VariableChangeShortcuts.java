@@ -37,6 +37,16 @@ public class VariableChangeShortcuts {
     System.out.println( "i: " + i + "\tj: " + j );
     i++;
     j--;
-    System.out.println( "i: " + i + "\tj: " + j );
+    System.out.println( "i: " + i + "\tj: " + j + "\n"); // added \n for study q's
+
+
+    // study drills 1 & 2
+    i = 5;
+    i -= 5;
+    System.out.println( "i: " + i+ "\n" );
+
+    i = 5 + ++i + i++ + ++i;
+
+    System.out.println( "i: " + i+ "\n" );
   }
 }
