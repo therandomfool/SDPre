@@ -39,6 +39,5 @@ public class BooleanExpressions {
     //  lesser than or equal is <=
     //  greater than or equal to  is >=
     //  not equal to is !=
-
   }
 }
