@@ -32,6 +32,10 @@ public class ComparingNumbers {
 
     if ( first != second ) {
       System.out.println( first + " is NOT EQUAL TO " + second );
+      System.out.println( "Hey." );
     }
+
+    // Study Drill Q#1 if the if statement isnt triggered i.e. the two numbers are equal, then the if statement ends
+    // Study Drill Q#2 I am not understanding the directions.
   }
 }
