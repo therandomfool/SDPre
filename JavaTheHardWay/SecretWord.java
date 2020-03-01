@@ -8,7 +8,7 @@ public class SecretWord {
     System.out.println( "What's the secret word? " );
     guess = keyboard.next();
 
-    if ( guess.equals(secret) ) {
+    if ( guess.equals(secret) || guess.equals("coronavirus") ) {
       System.out.println( "That's correct" );
     }
     else {
