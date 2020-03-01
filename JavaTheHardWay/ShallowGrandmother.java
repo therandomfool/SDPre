@@ -27,8 +27,5 @@ public class ShallowGrandmother {
     allowed2 = ( age > 30 && age < 45 && happy >= 7 );
 
     System.out.println( "<second Granny>Allowed to date my grandchild? " + allowed );
-
-
-
   }
 }
