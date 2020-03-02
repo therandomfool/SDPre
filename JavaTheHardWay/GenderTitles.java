@@ -34,5 +34,7 @@ public class GenderTitles {
     }
 
     System.out.println( "\n" + title + " " + last);
+    // Study Drills Q#1 blows program up.  Entering input beyond what we are searching for will not provide either gender to be true
+
   }
 }
