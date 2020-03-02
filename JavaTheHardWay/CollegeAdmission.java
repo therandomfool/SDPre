@@ -27,5 +27,9 @@ public class CollegeAdmission {
 
     out.println();
 
+    // Study Drills Q#1 elimination of elses
+    // Q#2 switching of code
+    // Q#3 too much typing but it works
+    
   }
 }
