@@ -11,7 +11,8 @@ public class ThirtyDays {
 
     switch(month) {
       case 1: monthName = "January";
-              break;
+              // break;
+              System.out.println(monthName);
       case 2: monthName = "Febuary";
               break;
       case 3: monthName = "March";
@@ -21,7 +22,8 @@ public class ThirtyDays {
       case 5: monthName = "May";
               break;
       case 6: monthName = "June";
-              break;
+              // break;
+              System.out.println(monthName);
       case 7: monthName = "July";
               break;
       case 8: monthName = "August";
@@ -33,7 +35,8 @@ public class ThirtyDays {
       case 11: monthName = "November";
               break;
       case 12: monthName = "December";
-              break;
+              // break;
+              System.out.println(monthName);
       default: monthName = "error";
     }
 
