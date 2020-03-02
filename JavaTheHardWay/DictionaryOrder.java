@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class DictionaryOrder {
   public static void main(String[] args) {
     Scanner keyboard = new Scanner(System.in);
-    String name;
+    // Study Drills Q#1  Added String result to convert answer toLowerCase
+    String name, result;
 
     System.out.print( "Make up the name of a programming language" );
-    name = keyboard.nextLine();
-
+    result = keyboard.nextLine();
+    name = result.toLowerCase();
+    // Study Drills Q#1 converted input toLowerCase 
     if ( name.compareTo("c++") < 0 )
       System.out.println(name + " comes BEFORE c++ " );
     if ( name.compareTo("c++") == 0 )
