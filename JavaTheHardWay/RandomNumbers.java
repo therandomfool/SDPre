@@ -62,5 +62,18 @@ public class RandomNumbers {
     System.out.println( "0-9.99:\t" + r );
     System.out.println( "0-9:\t" + (int)r );
     System.out.println( "1-10:\t" + (1+(int)r) );
+
+    // Study Drills Q#1
+    a = 1 + (int)(3*Math.random() );
+    b = 1 + (int)(3*Math.random() );
+    c = 1 + (int)(3*Math.random() );
+    System.out.println( "1-3:\t" + a + "\t" + b + "\t" + c );
+
+    // Study Drills Q#2
+    a = 5 + (int)(6*Math.random() );
+    b = 5 + (int)(6*Math.random() );
+    c = 5 + (int)(6*Math.random() );
+    System.out.println( "05-10:\t" + a + "\t" + b + "\t" + c );
+
   }
 }
