@@ -3,7 +3,7 @@ public class ThereAndBackAgain {
     System.out.println( "Here." );
     erebor();
     System.out.println( "Back the first time." );
-    erebor();
+    // erebor();
     System.out.println( "Back second time." );
   }
 
@@ -11,3 +11,5 @@ public class ThereAndBackAgain {
     System.out.println( "There." );
   }
 }
+
+// Study Drills Q#1 throws error on removal of
