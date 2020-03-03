@@ -15,14 +15,13 @@ public class HighLow {
     while ( secret != guess ) {
       if ( guess < secret ) {
         System.out.println( "Sorry, your guess is to low." );
-        System.out.println( " Try again. \n> " );
-        guess = keyboard.nextInt();
       }
       if ( guess > secret ) {
         System.out.println( "Sorry, your guess is too high." );
-        System.out.println( " Try again. \n> " );
-        guess = keyboard.nextInt();
       }
+      // Study Drills Q#1 dropped duplicate lines out of the "if" scope to the bottom of the "while" scope
+      System.out.println( " Try again. \n> " );
+      guess = keyboard.nextInt();
     }
 
     System.out.println( "You guessed it! What are the odds?!?" );
