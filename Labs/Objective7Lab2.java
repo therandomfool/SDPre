@@ -6,6 +6,6 @@ public class Objective7Lab2 {
   }
 
   public static void printMessage() {
-    System.out.println(("In main"));
+    System.out.println(("In method"));
   }
 }
